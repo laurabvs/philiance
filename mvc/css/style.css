@@ -1,0 +1,63 @@
+h1,h2,h3{
+    color:royalblue;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+a{
+    text-decoration: none;
+    color:royalblue;
+    font-size: 120%;
+}
+
+button{
+    display: flex;
+    flex-direction: column;
+}
+
+.col{
+    display: flex;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-left: 40%;
+}
+
+input,label,button{
+    margin-top: 2%;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 414px) {
+    h1,h2{
+        color: red;
+    }
+
+    nav{
+        display: none;
+    }
+
+    select{
+        color :black;
+        float: right;
+    }
+
+    
+}
+
+@media (min-width: 540px){
+    select{
+        display: none;
+    }
+}
